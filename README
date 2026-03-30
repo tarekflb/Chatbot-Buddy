@@ -1,0 +1,99 @@
+# 🤖 Buddy – Chatbot IA 
+⚖️ Propriété intellectuelle
+
+Le projet Buddy est développé dans le cadre d’une initiative liée à la plateforme SaaS Skoolup.
+
+À ce titre, certaines parties du code source, notamment les composants avancés liés à l’architecture et aux fonctionnalités internes, constituent une propriété intellectuelle de Skoolup et ne peuvent pas être rendues publiques.
+
+Ce dépôt présente une version démonstrative du projet, permettant d’illustrer :
+
+l’interface utilisateur
+
+---
+
+## 🎯 Objectif
+
+Créer un assistant capable de :
+
+* répondre à des questions variées
+* maintenir un contexte de conversation
+* offrir une interface moderne et intuitive
+
+---
+
+## 🚀 Fonctionnalités
+
+* 💬 Interface type ChatGPT 
+* 🧠 Mémoire persistante (historique sauvegardé)
+* ⚡ Réponses intelligentes via API OpenAI
+* 🔄 Reprise automatique des conversations
+
+---
+
+## 🛠️ Technologies utilisées
+
+* Python
+* Streamlit
+* OpenAI API
+* JSON (stockage mémoire)
+
+---
+
+## 📦 Installation
+
+### 1. Cloner le projet
+
+```bash
+git clone https://github.com/tarekflb/ml-chatbot-buddy.git
+cd ml-chatbot-buddy
+```
+
+### 2. Installer les dépendances
+
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Configurer la clé API
+
+Créer un fichier `.env` :
+
+```env
+OPENAI_API_KEY=ta_cle_api
+```
+
+---
+
+## ▶️ Lancer l'application
+
+```bash
+streamlit run app.py
+```
+
+---
+
+## 🧠 Fonctionnement
+
+Buddy utilise :
+
+* un modèle de langage pour générer des réponses multimodales 
+* un historique de messages pour conserver le contexte
+* un fichier `memory.json` pour sauvegarder les conversations
+* un mdoel entraîné sur un datset réel pour faciler l'apprentissage chez les enfants
+
+---
+
+## 📌 Améliorations possibles
+
+* gestion multi-utilisateurs
+* base de données (SQLite / PostgreSQL)
+* support image (vision + texte)
+* déploiement en ligne (Streamlit Cloud)
+
+---
+
+## 👨‍💻 Auteur
+
+BOULOUFA Tarek
+📧 [tarekflb@gmail.com](mailto:tarekflb@gmail.com)
+🔗 https://github.com/tarekflb
